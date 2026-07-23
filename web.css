@@ -6,6 +6,8 @@ body {
   margin: 0;
   background: #f4f7fb;
   color: #253238;
+  background-image: url('img_girl.jpg');
+
 }
 header {
   background: linear-gradient(120deg, #04AA6D, #058457);
