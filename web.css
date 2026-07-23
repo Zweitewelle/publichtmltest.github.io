@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-/* add opacity to background color of text */
-div.first {
-  background: rgba(0, 128, 0, 0.3);
-}
 
 body {
   font-family: "Segoe UI", Roboto, sans-serif;
