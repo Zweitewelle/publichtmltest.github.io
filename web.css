@@ -1,1 +1,9 @@
-
+/*Add gradient for background color */
+.hero {
+  background-image: linear-gradient(135deg, #131336 0%, #383970 100%);
+  color: #fff;
+  padding: 100px 24px;
+  font-family: "Inter",sans-serif;
+  border-radius: 18px;
+  text-align: center;
+}
