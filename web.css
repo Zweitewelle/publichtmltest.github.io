@@ -12,7 +12,7 @@ body {
 }
 header {
   background: linear-gradient(120deg, #04AA6D, #058457);
-  color: #fff;
+  color: #1D1D40;
   padding: 60px 60px;
   text-align: center;
 }
@@ -22,7 +22,7 @@ main {
   padding: 40px 20px;
 }
 section {
-  background: #fff;
+  background: #1D1D40;
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 24px;
