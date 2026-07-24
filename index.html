@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
-  <!--style formatting, button and text-->
+  <!--style formatting, button and text, sticky header-->
     <style>
     h1 {
   text-align: center;
@@ -24,12 +24,23 @@
 .testbtn:hover {
   background-color: #FF2B00;
 }
+
+ div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 5px solid #FFFFFF;
+}
+      
   </style>
   
 <body style="background:url(moroccan-flower-dark.webp)"> <!--adds background image-->
 
   <h1>Lucky Blood</h1>
-  
+
+  <!--Sticky heading-->
+  <hi div class="sticky">I have position sticky!</h1>
 
   <!--button(test button)-->
   <button onclick="alert('You Clicked Me!')" class="testbtn">Click Me!</button>
