@@ -36,28 +36,32 @@
   <!--refresh button-->
   <button onclick="location.reload()" class="testbtn">Try Again!</button>  
 
+
+  <!--show a random number generated including 5 when pressing button-->
+<form><input name="code" id="code" type="text" value="" >
+<script type="text/javascript">
+    function makeid()
+    {
+    var randomnumber=Math.floor(Math.random() * 6)
+}
+    function makeid() {
+    return Math.floor(Math.random() * 6)
+}
+</script>
+<input type="button" style="font-size:9pt" value="Test Your Luck" onclick="document.getElementById('code').value = makeid()">
+</input>
+</form>
+
+<footer>  
   <!--Adding audio, autoplay-->
 <audio controls autoplay>
   <source src="Strange Worlds.ogg" type="audio/ogg">
   <source src="Strange Worlds.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+  <p> Thank you PizzaDoggy for the audio</p>
+</footer>  
 
-  <!--trying to add a random number generated before 5 when pressing button-->
-<form><input name="code" id="code" type="text" value="" >
-<script type="text/javascript">
-    function makeid()
-    {
-    var randomnumber=Math.floor(Math.random() * 5)
-}
-    function makeid() {
-    return Math.floor(Math.random() * 5)
-}
-</script>
-<input type="button" style="font-size:9pt" value="Generate Code" onclick="document.getElementById('code').value = makeid()">
-</input>
-</form>
-  
 </body>
 </html>
 
