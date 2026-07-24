@@ -42,6 +42,21 @@
   <source src="Strange Worlds.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+
+  <!--trying to add a random number generated before 5 when pressing button-->
+<form><input name="code" id="code" type="text" value="" >
+<script type="text/javascript">
+    function makeid()
+    {
+    var randomnumber=Math.floor(Math.random() * 5)
+}
+    function makeid() {
+    return Math.floor(Math.random() * 5)
+}
+</script>
+<input type="button" style="font-size:9pt" value="Generate Code" onclick="document.getElementById('code').value = makeid()">
+</input>
+</form>
   
 </body>
 </html>
