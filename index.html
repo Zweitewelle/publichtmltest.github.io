@@ -6,6 +6,8 @@
 
   <!--style formatting, button and text, sticky header-->
 <style>
+
+  /*aesthetic look for button*/
     .testbtn {
   background-color: #FFFFFF;
   color: #1C1C4F;
@@ -16,10 +18,12 @@
   cursor: pointer;    
 }
 
+ /*make testbtn change aesthetic when pointer hovers*/ 
 .testbtn:hover {
   background-color: #1C1C4F;
 }
 
+  /*make header sticky to top */
  div.sticky {
   position: sticky;
   top: 0;
@@ -30,9 +34,15 @@
   font-size: 30px;
 }
 
+ /*change font to cursive for paragraph*/ 
   .p1 {
     font-family: "Lucida Handwriting",Papyrus,cursive;
   }
+
+  /* Set display to none for image*/
+        #image {
+            display: none;
+        }
     
   </style>
   
@@ -63,6 +73,33 @@
 </input>
 </form>
 
+  <!--Script for accessing button id to show image-->
+ <script>
+        function show() {
+            /* Access image by id and change 
+            the display property to block*/
+            document.getElementById('image')
+                .style.display = "block";
+            document.getElementById('btnID')
+                .style.display = "none";
+        }
+    </script>
+
+  <!--Make div for button to show image test-->
+  <div style="padding-top:20px">
+        <h2>GeeksforGeeks Tutorial TEST</h2>
+        <h3>Click on the button to see image</h3>
+
+        <img id="image" src=
+"ezgif.com-resize.gif"
+            alt="GIF image" />
+    </div>
+
+  <!--button that 'shows' image-->
+    <button type="button" onclick="show()" id="btnID">
+        Show Image
+    </button>
+  
     <!--some text for scrcolling purposes-->
     <div style="padding-bottom:2000px">
 <p class="p1">Scroll back up to remove the stickyness!</p>
@@ -71,8 +108,6 @@
 <p class="p1">Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 </div>
 
-  <!--trying to add a gif!-->
-<img src="ezgif.com-resize.gif" alt="numbers gif">
     
 <footer>  
   <!--Adding audio, autoplay-->
@@ -86,7 +121,6 @@ Your browser does not support the audio element.
 
 </body>
 </html>
-
 
 <!--Make button=animation AND random math generator-->
 <!--one button starts gif-->
