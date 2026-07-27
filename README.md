@@ -11,3 +11,12 @@ behind-the-scenes number generator
     -lose=vampire amiomation and 'refresh button'
               -refresh button=refresh screen
               
+need to delete and then add to assets file, clean up index file with:
+
+Strange Worlds.ogg
+
+all-five-numbers-nobg.png
+
+ezgif.com-resize.gif
+
+moroccan-flower-dark.webp
