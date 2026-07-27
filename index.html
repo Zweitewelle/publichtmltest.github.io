@@ -16,10 +16,10 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  padding-bottom:20px;
-  padding-top:20px;
-  padding-right:20px;
-  padding-left:20px;
+  padding-bottom:15px;
+  padding-top:15px;
+  padding-right:15px;
+  padding-left:15px;
 }
 
  /*make testbtn change aesthetic when pointer hovers*/ 
@@ -36,6 +36,7 @@
   border: 5px solid #FFFFFF;
   text-align: center;
   font-size: 30px;
+  padding-bottom:30px;
 }
 
  /*change font to cursive for paragraph*/ 
@@ -45,6 +46,10 @@
     color: #FFFFFF;
     cursor: pointer;
     text-align: left;
+    padding-bottom:20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-left:20px;
   }
 
     
@@ -90,7 +95,7 @@
 }
   
 </script>
-<input type="button" style="font-size:9pt" value="Test Your Luck" onclick="document.getElementById('code').value = makeid()">
+<input type="button" style="font-size:9pt" class="testbtn" value="Test Your Luck" onclick="document.getElementById('code').value = makeid()">
 </input>
 </form>
 
@@ -124,10 +129,10 @@
 
 
   <h2>Testing File path, show image with various file paths</h2>
-<img src="assets/css/9b0285b1d18de5686cc16967491a28ba-1287134625.jpg" alt="HunterXHunter" width="500" height="333">
+<img src="assets/css/9b0285b1d18de5686cc16967491a28ba-1287134625.jpg" alt="HunterXHunter" width="200" height="200">
 
 <h2>Testing File path, show image with various file paths -assets</h2>
-  <img src="assets/css/Screenshot 2026-01-20 193817.png" alt="DrawnAnimeGuy" width="500" height="333">
+  <img src="assets/css/Screenshot 2026-01-20 193817.png" alt="DrawnAnimeGuy" width="200" height="200">
   
  
   <!--getting first image, DEFTSTACK TEST-->
@@ -138,7 +143,7 @@
 
   <!--button for switching images, deftstack test-->
     <div>
-        <input type="button" onclick="imagefun()" value="Swap Image">
+        <input type="button" onclick="imagefun()" value="Spin/Stop">
     </div>
   
 <footer>  
